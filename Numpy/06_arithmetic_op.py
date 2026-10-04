@@ -1,7 +1,7 @@
 #Arithmetic Operations in Numpy
 import numpy as np
 
-#Addition
+#ADDITION
 a = np.array([1,20,30])   #1D
 add = a + 5
 print("Addition: ",add)
@@ -18,47 +18,35 @@ d = np.array([[10,20,30]])   #2D
 add3 = d + c
 print("Addition (method 3): ",add3)
 
-#Subtraction
+#SUBTRACTION
 sub = a - 5
 sub1 = np.subtract(a,5)
 print("Subtraction: ",sub)
 print("Subtraction (method 1): ",sub1)
 
-#Multiplication
+#MULTIPLICATION
 mul = a * 5
 mul1 = np.multiply(a,5)
 print("Multiplication (method 1): ",mul1)
 print("Multiplication: ",mul)
 
-#Division
+#DIVISION
 div = a / 5
 div1 = np.divide(a,5)
 print("Division (method 1): ",div1)
 print("Division: ",div)
 
-#Power
+#POWER
 pow = a ** 5
 pow1 = np.power(a,5)
 print("Power (method 1): ",pow1)
 print("Power: ",pow)
 
-#Modulus
+#MODULUS
 mod = a % 5
 mod1 = np.mod(a,5)
 print("Modulus (method 1): ",mod1)
 print("Modulus: ",mod)
-
-#Maximum
-max = np.max(a)
-max1 = np.amax(a) #or np.max(a)
-print("Maximum (method 1): ",max1)
-print("Maximum: ",max)
-    
-#Minimum
-min = np.min(a)
-min1 = np.amin(a) #or np.min(a)
-print("Minimum (method 1): ",min1)
-print("Minimum: ",min)
 
 #reciprocal
 rec = np.reciprocal(a)
