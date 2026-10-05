@@ -49,3 +49,9 @@ for i in np.nditer(ary_1,flags=['buffered'],op_dtypes = ["S"]):
  #flags = ['buffered'] is used to iterate through the array without copying the array
     print(i)
 print("\n")
+
+#ITERATION USING np.ndnumerate()
+#np.ndnumerate() is a function in numpy which is used to iterate through an array with index
+ary_2 = np.array([[[3,7,9,4]],[[1,2,3,4]]])
+for i,j in np.ndenumerate(ary_2): # or i,d in np.ndenumerate(ary_2)
+    print(i,j)
