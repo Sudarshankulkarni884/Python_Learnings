@@ -1,6 +1,6 @@
 #SHAPE AND RESHAPE
 import numpy as np
-'''
+
 #SHAPE
 a = np.array([[1,2,3],[4,5,6]])
 print(a)
@@ -18,7 +18,7 @@ reshp = np.reshape(c,(3,2))
 print("Shape of reshp: ",reshp.shape)
 print(reshp)
 print("\n")
-'''
+
 #RESHAPE WITH -1
 # -1 means in simple language that the value of that dimension will be automatically calculated
 d = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
