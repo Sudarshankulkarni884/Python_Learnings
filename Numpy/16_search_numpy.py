@@ -33,17 +33,23 @@ print("\n")
 '''
 
 #SEARCH SORTED ARRAY
+# searchsorted() is a function in numpy which is used to search for an element in a sorted array
+# searchsorted() function returns the index of the element if found else returns -1
 a = np.array([1,2,3,4,5,7,8,9,10])
 search_sorted = np.searchsorted(a,5)
 print("Index of element 5 in sorted array: ",search_sorted)
 
 #SORT ARRAY
+# sort() is a function in numpy which is used to sort an array
 b = np.array([1,3,54,2,65,7,2,0])
 sort = np.sort(b)
 print("Sorted array: ",sort)
 
 #FILTER ARRAY
+# where() is a function in numpy which is used to filter an array
 c = np.array(['64','10','16','98','23','1','45'])
 filter = [True, False, False, True, False, True, False]
+filter_1 = np.where(c.astype(int) > 50)
 new_array = c[filter]
 print("Filtered array: ",new_array)
+print("Filtered array using where: ",filter_1)
