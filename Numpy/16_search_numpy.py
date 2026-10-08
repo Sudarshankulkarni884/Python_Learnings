@@ -36,7 +36,7 @@ print("\n")
 # searchsorted() is a function in numpy which is used to search for an element in a sorted array
 # searchsorted() function returns the index of the element if found else returns -1
 a = np.array([1,2,3,4,5,7,8,9,10])
-search_sorted = np.searchsorted(a,5)
+search_sorted = np.searchsorted(a,6)
 print("Index of element 5 in sorted array: ",search_sorted)
 
 #SORT ARRAY
