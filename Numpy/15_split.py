@@ -28,5 +28,5 @@ sp_1 = np.array_split(var_1,2)
 sp_2 = np.array_split(var_1,2,axis=1)
 
 print("Split array : ",sp_1)
-print("Splitting along axis=1 : ",sp_2)
+print("Splitting along axis=1 : \n",sp_2)
 print("\n")
